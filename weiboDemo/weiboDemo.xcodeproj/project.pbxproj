@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		7D3403A11CFC282000C0F4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3403A01CFC282000C0F4A6 /* Assets.xcassets */; };
 		7D3403B51CFC2CD300C0F4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3403B31CFC2CD300C0F4A6 /* AppDelegate.swift */; };
-		7D3403B61CFC2CD300C0F4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3403B41CFC2CD300C0F4A6 /* ViewController.swift */; };
+		7DF5E9B51CFD150A0081EAE5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5E9B41CFD150A0081EAE5 /* MainViewController.swift */; };
+		7DF5E9B71CFD15A50081EAE5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5E9B61CFD15A50081EAE5 /* HomeViewController.swift */; };
+		7DF5E9BD1CFD165F0081EAE5 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5E9BC1CFD165F0081EAE5 /* DiscoverViewController.swift */; };
+		7DF5E9BF1CFD1A800081EAE5 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5E9BE1CFD1A800081EAE5 /* MessageViewController.swift */; };
+		7DF5E9C11CFD1C3B0081EAE5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5E9C01CFD1C3B0081EAE5 /* ProfileViewController.swift */; };
+		7DF5E9C51CFD1D9F0081EAE5 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DF5E9C31CFD1D9F0081EAE5 /* MainVCSettings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +22,12 @@
 		7D3403A01CFC282000C0F4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D3403A51CFC282000C0F4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D3403B31CFC2CD300C0F4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D3403B41CFC2CD300C0F4A6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DF5E9B41CFD150A0081EAE5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7DF5E9B61CFD15A50081EAE5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7DF5E9BC1CFD165F0081EAE5 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		7DF5E9BE1CFD1A800081EAE5 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		7DF5E9C01CFD1C3B0081EAE5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7DF5E9C31CFD1D9F0081EAE5 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +70,13 @@
 		7D3403AB1CFC2C7500C0F4A6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7DF5E9C21CFD1D9F0081EAE5 /* Resource */,
+				7D3403B11CFC2C7500C0F4A6 /* Other */,
 				7D3403AC1CFC2C7500C0F4A6 /* Common */,
 				7D3403AD1CFC2C7500C0F4A6 /* Discover */,
 				7D3403AE1CFC2C7500C0F4A6 /* Home */,
 				7D3403AF1CFC2C7500C0F4A6 /* Main */,
 				7D3403B01CFC2C7500C0F4A6 /* Message */,
-				7D3403B11CFC2C7500C0F4A6 /* Other */,
 				7D3403B21CFC2C7500C0F4A6 /* Profile */,
 			);
 			path = Classes;
@@ -81,6 +92,7 @@
 		7D3403AD1CFC2C7500C0F4A6 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				7DF5E9BC1CFD165F0081EAE5 /* DiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -88,6 +100,7 @@
 		7D3403AE1CFC2C7500C0F4A6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7DF5E9B61CFD15A50081EAE5 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -96,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				7D3403B31CFC2CD300C0F4A6 /* AppDelegate.swift */,
-				7D3403B41CFC2CD300C0F4A6 /* ViewController.swift */,
+				7DF5E9B41CFD150A0081EAE5 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -104,6 +117,7 @@
 		7D3403B01CFC2C7500C0F4A6 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				7DF5E9BE1CFD1A800081EAE5 /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -118,8 +132,17 @@
 		7D3403B21CFC2C7500C0F4A6 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				7DF5E9C01CFD1C3B0081EAE5 /* ProfileViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		7DF5E9C21CFD1D9F0081EAE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7DF5E9C31CFD1D9F0081EAE5 /* MainVCSettings.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF5E9C51CFD1D9F0081EAE5 /* MainVCSettings.json in Resources */,
 				7D3403A11CFC282000C0F4A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,8 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D3403B61CFC2CD300C0F4A6 /* ViewController.swift in Sources */,
+				7DF5E9C11CFD1C3B0081EAE5 /* ProfileViewController.swift in Sources */,
+				7DF5E9B51CFD150A0081EAE5 /* MainViewController.swift in Sources */,
 				7D3403B51CFC2CD300C0F4A6 /* AppDelegate.swift in Sources */,
+				7DF5E9BD1CFD165F0081EAE5 /* DiscoverViewController.swift in Sources */,
+				7DF5E9B71CFD15A50081EAE5 /* HomeViewController.swift in Sources */,
+				7DF5E9BF1CFD1A800081EAE5 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +356,7 @@
 				7D3403AA1CFC282000C0F4A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
